@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(41, 41, 41);
+    text-align: center;
+font-family: 'Montserrat SemiBold';    
+color: rgb(255, 255, 255);
+    font-size: 10px;
+}
+
+button[id="button1"] {
+    position: relative;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+font-family: 'Montserrat SemiBold';    width: 120px;
+    height: 40px;
+    background-color: rgb(95, 95, 95);
+    border-radius: 10px;
+    color: white;
+}
+button[id="button2"] {    
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+font-family: 'Montserrat SemiBold';    width: 120px;
+    height: 40px;
+    background-color: rgb(95, 95, 95);
+    border-radius: 10px;
+    color: white;
+    width: 150px;
+}
+button[id="button3"] {   
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    font-family: 'Montserrat SemiBold';
+    width: 120px;
+    height: 40px;
+    background-color: rgb(95, 95, 95);
+    border-radius: 10px;
+    color: white;
+}
+
+button:hover {
+    box-shadow: 0 0 10px rgb(150, 150, 150);
+    background-color: rgb(65, 65, 65);
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+button:not(:hover) {
+   
+    background-color: rgb(39, 39, 39);
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+input[type="range"] {
+    width: 100px;
+    height: 10px;
+    background-color: rgb(73, 73, 73);
+    border-radius: 5px;
+}
+div[id="unity-build-title"] {
+    position: relative;
+    text-align: center;
+font-family: 'Montserrat SemiBold';}   
