@@ -1,4 +1,5 @@
 body {
+   
     background-color: rgb(41, 41, 41);
     text-align: center;
 font-family: 'Montserrat SemiBold';    
@@ -7,6 +8,7 @@ color: rgb(255, 255, 255);
 }
 
 button[id="button1"] {
+    cursor: pointer;
     position: relative;
     font-size: 20px;
     font-weight: lighter;
@@ -16,6 +18,11 @@ font-family: 'Montserrat SemiBold';    width: 120px;
     background-color: rgb(95, 95, 95);
     border-radius: 10px;
     color: white;
+}
+
+.scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(255, 0, 0) rgb(50, 50, 50);
 }
 button[id="button2"] {    
     font-size: 20px;
@@ -39,7 +46,28 @@ button[id="button3"] {
     border-radius: 10px;
     color: white;
 }
-
+button[id="button4"] {   
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    font-family: 'Montserrat SemiBold';
+    width: 120px;
+    height: 40px;
+    background-color: rgb(95, 95, 95);
+    border-radius: 10px;
+    color: white;
+}
+button[id="button5"] {   
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    font-family: 'Montserrat SemiBold';
+    width: 120px;
+    height: 40px;
+    background-color: rgb(95, 95, 95);
+    border-radius: 10px;
+    color: white;
+}
 button:hover {
     box-shadow: 0 0 10px rgb(150, 150, 150);
     background-color: rgb(65, 65, 65);
@@ -66,4 +94,83 @@ input[type="range"] {
 div[id="unity-build-title"] {
     position: relative;
     text-align: center;
-font-family: 'Montserrat SemiBold';}   
+    font-family: 'Montserrat SemiBold';
+}  
+
+h2 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+p[id="Barrier"] {
+    color: rgb(41, 41, 41);
+}
+p[id="Dashboard Details"] {
+    color: rgb(196, 196, 196);
+    font-size: 20px;
+    font-family: 'Montserrat SemiBold';
+}
+p[id="Dashboard Details2"] {
+    color: rgb(196, 196, 196);
+    font-size: 20px;
+    font-family: 'Montserrat SemiBold';
+
+}
+p[id="Dashboard Title"] {
+    color: rgb(196, 196, 196);
+    font-size: 20px;
+    font-family: 'Montserrat SemiBold';
+}
+li[id="DashBoard Example"] {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'Montserrat SemiBold';
+}
+p[id="Dashboard ExampleGive"] {
+    font-size: 25px;
+    font-family: 'Montserrat SemiBold';
+    color: rgb(255, 0, 0);
+}
+#DashboardInfo {
+    margin-top: 900px; 
+}
+
+#SettingsInfo {
+    margin-top: 400px; 
+}
+p[id="Dashboard Credit"] {
+    font-size: 25px;
+    font-family: 'Montserrat SemiBold';
+    color: rgb(255, 255, 255);
+}
+header {
+    position: fixed;
+    left: -250px;
+    top: 1px;
+   
+    text-align: center;
+    background-color: rgb(43, 42, 42); 
+    padding: 3px 1000px;
+    z-index: 1000;
+    display: flex;
+    gap: 10px;
+}
+img {
+    width: 200px;
+    top: -120px;
+    left: 170px;
+    position: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+p[id="ContactText"] {
+    font-size: 15px;
+    font-family: 'Montserrat SemiBold';
+    color: rgb(255, 255, 255);
+}
+h3[id="ContactSection"] {
+    font-size: 30px;
+    font-family: 'Montserrat SemiBold';
+    color: rgb(255, 255, 255);
+}
